@@ -2,9 +2,7 @@ package lang.print.gaps.task5;
 
 public class ThreeStuckVars {
     public static void main(String[] args) {
-        int i = 1;
-        int j = 10;
-        int k= 100;
-        System.out.println(i+ " " + j + " " + k);
+          int first = 1, second = 10, third = 100;
+        System.out.println(first + "" + second + "" + third);
     }
 }
